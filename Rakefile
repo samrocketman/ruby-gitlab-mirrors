@@ -14,7 +14,7 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
-  gem.name = "ruby-gitlab-mirrors"
+  gem.name = "gitlab_mirrors"
   gem.homepage = "http://github.com/logicminds/ruby-gitlab-mirrors"
   gem.license = "MIT"
   gem.summary = %Q{Ruby implementation of the gitlab-mirrors project}
@@ -44,7 +44,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "ruby-gitlab-mirrors #{version}"
+  rdoc.title = "gitlab_mirrors #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
